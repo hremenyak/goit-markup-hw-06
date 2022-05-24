@@ -652,8 +652,16 @@ img {
 
 .form {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.modal-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 448px;
+  outline: 1px solid blue;
+}
 .footer-form {
   margin-left: 93px;
 }
@@ -701,4 +709,73 @@ input {
 
 .button-text {
   margin-right: 10px;
+}
+
+.form-title {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: rgba(33, 33, 33, 1);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 1);
+}
+
+.form-label.name {
+  margin-top: 12px;
+}
+
+.form-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: var(--accent-color);
+}
+
+.checkbox {
+  width: 16px;
+  height: 15px;
+  margin-right: 9px;
+}
+
+.form-field.policy {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form-button.btn-modal {
+  margin-right: auto;
+  margin-left: auto;
 }

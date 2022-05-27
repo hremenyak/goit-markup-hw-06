@@ -559,6 +559,9 @@ img {
   cursor: pointer;
 }
 
+.modal-icon {
+  transition: fill 250ms var(--timing-function);
+}
 .modal-button:hover .modal-icon,
 .modal-button:focus .modal-icon {
   fill: var(--accent-color);
@@ -776,6 +779,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   outline: none;
+  transition: border-color 250ms var(--timing-function);
 }
 
 .form-input:focus {
@@ -795,6 +799,7 @@ img {
   border-radius: 4px;
   resize: none;
   outline: none;
+  transition: border-color 250ms var(--timing-function);
 }
 
 .comment:focus {
@@ -824,6 +829,7 @@ img {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  transition: fill 250ms var(--timing-function);
 }
 
 .wrapper {

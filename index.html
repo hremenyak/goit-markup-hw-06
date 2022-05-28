@@ -444,13 +444,14 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
+      <!-- Modal -->
       <div class="modal">
         <button class="modal-button" data-modal-close>
           <svg class="modal-icon" width="30" height="30">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-
+        <!-- Modal form -->
         <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
         <form class="modal-form" autocomplete="off">
           <label class="form-field">
@@ -495,7 +496,11 @@
 
           <label class="form-field policy">
             <input type="checkbox" name="policy" value="policy" class="checkbox-form" />
-            <span class="checkbox-icon"></span>
+            <span class="checkbox-icon">
+              <svg class="icon-check" width="16" height="15">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
             <span class="label-policy"
               >Соглашаюсь с рассылкой и принимаю
               <a class="form-link" href="">Условия договора</a>
